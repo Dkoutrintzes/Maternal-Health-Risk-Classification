@@ -42,7 +42,7 @@ python ClassificationReport.py
 
 To run make a predict from Csv File:
 ```
-python PredictionReport.py <Pathtofile>
+python Predictionfromcsv.py <Pathtofile>
 #example
 python Predictionfromcsv.py Testsubgect/Lidia.csv
 ```
