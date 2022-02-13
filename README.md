@@ -22,7 +22,7 @@ python ClassificationReport.py
 '''
 
   ||            precision  |  recall | f1-score |  support|
-
+  |-|----------------------|---------|----------|---------|
   | high risk     |  0.92  |    0.91  |    0.91   |     53|
    | low risk      | 0.90   |   0.83  |    0.86   |     87|
    | mid risk       |0.71    |  0.81  |    0.76   |     58|
