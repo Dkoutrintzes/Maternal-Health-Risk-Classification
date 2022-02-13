@@ -21,15 +21,15 @@ The saved Model will be saved on Clf folder. The pre trained classifiers are bee
 python ClassificationReport.py
 '''
 
-              precision    recall  f1-score   support
+  ||            precision  |  recall | f1-score |  support|
 
-   high risk       0.92      0.91      0.91        53
-    low risk       0.90      0.83      0.86        87
-    mid risk       0.71      0.81      0.76        58
+  | high risk     |  0.92  |    0.91  |    0.91   |     53|
+   | low risk      | 0.90   |   0.83  |    0.86   |     87|
+   | mid risk       |0.71    |  0.81  |    0.76   |     58|
 
-    accuracy                           0.84       198
-   macro avg       0.85      0.85      0.84       198
-weighted avg       0.85      0.84      0.85       198
+|    accuracy        |                |   0.84    |   198|
+ |  macro avg      | 0.85     | 0.85  |    0.84   |    198|
+|weighted avg       |0.85      |0.84  |    0.85   |    198|
 
 # 5.Examples 
 5 examples is provited in the Testsubject folder
