@@ -4,22 +4,22 @@ This repo contains a Python Classification algorithm. The data was retrieved fro
 Source : https://www.kaggle.com/csafrit2/maternal-health-risk-data
 
 ## 2.Requiremnts
-'''
+```
 pip istall -r requirements.txt
-'''
+```
 ## 3.Train
 The dataset is containd in the folder Dataset and has been separated to Train data , Test data and some data that can be used later for examples.
 
-'''
+```
 python Train.py
-'''
+```
 
 The saved Model will be saved on Clf folder. The pre trained classifiers are been provided in that folder.
 
 ## 4.Classification 
-'''
+```
 python ClassificationReport.py
-'''
+```
 
   ||            precision  |  recall | f1-score |  support|
   |-|----------------------|---------|----------|---------|
@@ -41,17 +41,17 @@ python ClassificationReport.py
 |Agkeliki|	19|	120|	90|	6.8|	98|	60|Mid Risk|
 
 To run make a predict from Csv File:
-'''
+```
 python PredictionReport.py <Pathtofile>
 #example
 python Predictionfromcsv.py Testsubgect/Lidia.csv
-'''
+```
   
  To run using the data:
- '''
+ ```
   python Prediction.py <Age> <SystolicBP> <DiastolicDP> <BS> <BosyTemp> <HeartRate> <RiskLevel>
   #example
   python Prediction.py 48 120 80 11 98 88
- '''
+ ```
 
 
