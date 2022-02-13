@@ -8,13 +8,13 @@ Source : https://www.kaggle.com/csafrit2/maternal-health-risk-data
 pip istall -r requirements.txt
 ```
 ## 3.Train
-The dataset is containd in the folder Dataset and has been separated to Train data , Test data and some data that can be used later for examples.
+The dataset is inside the folder Dataset and has been separated to Train data , Test data and some data that can be used later for examples.
 
 ```
 python Train.py
 ```
 
-The saved Model will be saved on Clf folder. The pre trained classifiers are been provided in that folder.
+The generated Model will be saved on Clf folder. The pre trained classifiers are been provided in that folder.
 
 ## 4.Classification 
 ```
