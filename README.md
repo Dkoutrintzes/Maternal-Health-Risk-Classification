@@ -26,7 +26,6 @@ python ClassificationReport.py
   | high risk     |  0.92  |    0.91  |    0.91   |     53|
    | low risk      | 0.90   |   0.83  |    0.86   |     87|
    | mid risk       |0.71    |  0.81  |    0.76   |     58|
-
 |    accuracy        |                |   0.84    |   198|
  |  macro avg      | 0.85     | 0.85  |    0.84   |    198|
 |weighted avg       |0.85      |0.84  |    0.85   |    198|
