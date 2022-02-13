@@ -26,7 +26,7 @@ python ClassificationReport.py
   | high risk     |  0.92  |    0.91  |    0.91   |     53|
    | low risk      | 0.90   |   0.83  |    0.86   |     87|
    | mid risk       |0.71    |  0.81  |    0.76   |     58|
-|    accuracy        |                |   0.84    |   198|
+|    accuracy        |      |          |   0.84    |   198|
  |  macro avg      | 0.85     | 0.85  |    0.84   |    198|
 |weighted avg       |0.85      |0.84  |    0.85   |    198|
 
@@ -39,5 +39,19 @@ python ClassificationReport.py
 |Nikoleta|	17|	110|	75|	13|	101|	76|High Risk|
 |Eirini|	23|	100|	85|	7.5|	98	66|Low Risk|
 |Agkeliki|	19|	120|	90|	6.8|	98|	60|Mid Risk|
+
+To run make a predict from Csv File:
+'''
+python PredictionReport.py <Pathtofile>
+#example
+python Predictionfromcsv.py Testsubgect/Lidia.csv
+'''
+  
+ To run using the data:
+ '''
+  python Prediction.py <Age> <SystolicBP> <DiastolicDP> <BS> <BosyTemp> <HeartRate> <RiskLevel>
+  #example
+  python Prediction.py 48 120 80 11 98 88
+ '''
 
 
