@@ -37,7 +37,7 @@ python ClassificationReport.py
 |Lidia|	48|	120|	80|	11|	98|	88| High Risk|
 |Georgia|	20|	110|	60|	7|	100|	70|Mid Risk|
 |Nikoleta|	17|	110|	75|	13|	101|	76|High Risk|
-|Eirini|	23|	100|	85|	7.5|	98	66|Low Risk|
+|Eirini|	23|	100|	85|	7.5|	98	|66|Low Risk|
 |Agkeliki|	19|	120|	90|	6.8|	98|	60|Mid Risk|
 
 To run make a predict from Csv File:
