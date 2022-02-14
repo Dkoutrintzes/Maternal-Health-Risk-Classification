@@ -16,7 +16,7 @@ python Train.py
 
 The generated Model will be saved on Clf folder. The pre trained classifiers are been provided in that folder.
 
-## 4.Classification 
+## 4.Classification Report
 ```
 python ClassificationReport.py
 ```
