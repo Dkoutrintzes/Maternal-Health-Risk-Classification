@@ -9,7 +9,7 @@ pip istall -r requirements.txt
 ```
 ## 3.Train
 The dataset is inside the folder Dataset and has been separated to Train data , Test data and some data that can be used later for examples.
-
+ 
 ```
 python Train.py
 ```
